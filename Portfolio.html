@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" href="Portfolio.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+ </style>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Abhishek-logo.png"class="logo">
+        <!-- <img src="https://logos.textgiraffe.com/logos/logo-name/39831711-designstyle-box-l.png"class="logo"> -->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>web-Designer</p>
+         <h1> Hi,i'm <span class="red">AbhishekSkji</span><br>From Bhopal</h1>
+          <div>And i am a Passionate</div>
+          <span id="element"></span> 
+      </div> 
+    </div>
+  </div>
+    <!------------------ About --------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img id="about-img" src="abhishek3.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>H i'm Abhishek Sikandarpure.and I live in chhindwar madhya pradesh,
+          I currently pusuing b-tech from NRI GROUP OF INSTITUTE BHOPAL,and i complete school from Goverment Naveen Javahar Boys High Secondry School Chhindwara, a passionate in web-Devlopment,i love cooking,runing,and compassionate. I'm always looking to my Father Let's connect! </p>
+           <!-- ------------Tab------------- -->
+          <div class="tab-titel">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience </p>
+            <p class="tab-links" onclick="opentab('education')">Education </p>
+          </div>
+          <!-- ------------Skills------------- -->
+          <div class="tab-contents active-tab" id="skills">
+            <ul><span>Web Devlopment</span><br>Web App Devlopment</ul>
+            <ul><span>Java Development</span><br>Building Reservation system</ul>
+            <ul><span>Data Analytics</span><br>Building Android/ios apps</ul>
+          </div>
+           <!-- ------------Experience------------- -->
+          <div class="tab-contents" id="experience">
+            <ul><span>Web Development Internship</span><br>I am a intern in Innovate Intern. </ul>
+            <ul><span>Java Development Internship</span><br>I am a intern in Oasis Infobyte .</ul>
+            <ul><span>Web Development Internship</span><br>I am a intern in Optifys Technology.</ul>
+            <ul><span>Data Analytics Internship</span><br>Accentur North America .</ul>     
+            <ul><span>Web Development Internship</span><br>I am a intern in Alfido-Tech. </ul>
+          </div>
+           <!-- ------------Education------------- -->
+          <div class="tab-contents" id="education">
+            <ul><span>2024 Current</span><br>I Pursuing  B-Tech from RGPV University.</ul>
+            <ul><span>2023</span><br>I complete my Gatuation from Chhindwara University.</ul>
+            <ul><span>2020</span><br>I complete my 12th M.P. Borad.</ul>
+            <ul><span>2018</span><br>I complete my 10th from M.P. Borad.</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------Services------------------------ -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <h2>Web Devloper</h2>
+          <p>Web Development Services: Crafting Your Digital Presence
+Web development services encompass a wide range of activities involved in creating, designing, and maintaining websites and web applications. Here are some of the core services offered by web development companies:</p>
+          <p class="lern-links current-link" onclick="opentab('web-devloper')">learn more</p>
+          <div class="learn-tabs current-tab" id="web-devloper">
+             Core Web Development Services
+           </div>
+        </div>
+          <div>
+          <h2>Java devloper</h2>
+          <p>java, a versatile and robust programming language , is widelu used for developing a diverse range of applications. Here aare some of the core services offerd by java development</p>
+          <p class="lern-links" onclick="opentab('java-devloper')">learn more</p>
+           <div class="learn-tabs" id="java-devloper">
+             Core Java Development Services
+           </div>
+        </div>
+        <div>
+          <h2>Data Analysis</h2>
+          <p>i am a Good Data Analytics,i have a brife knowlede of data mining,at extracting valuable insights from raw data. These services can be tailored to various industries and business needs, helping lrganization make data-driven decisions and improve their performance.</p>
+          <p class="lern-links" onclick="opentab('data-analysis')">learn more</p>
+           <div class="learn-tabs" id="data-analysis">
+             Common Data Analysis Services
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- ------------------------footer--------------- -->
+      <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>This Portfolio made by Abhishek</h3>
+            </div>
+            <div class="footer-second">
+                <div class="last-container">
+                    <div class="address text-white p-2 me-2 ">
+                      <ul>
+                        <h4>ADDRESS</h4>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+                          Ashoka Gardan Bhopal</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i>
+                          +91 7987103310</li>
+                        <li> <i class="fa fa-envelope" aria-hidden="true"></i>
+                          </i><span> abhishekskji@gmail.com </span></li>
+                      </ul>
+                      <div class="icon">
+                        <a class="btn btn-square mx-1" href="https://www.facebook.com/abhishekskji.sikandarpure?mibextid=ZbWKwL"
+                          target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square mx-1" href="https://x.com/abhishekskji" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square mx-1" href="https://www.instagram.com/abhishekskji" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/abhishek-sikanderpure-7a6901269?utm_source"
+                          target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+           copyright &#169; creted by Abhishekskji | All rights reseved
+        </div>
+    </footer>
+
+
+
+  <!-- ---------------------javascrips----------------- -->
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+     var typed = new Typed('#element', {
+     strings: ['web devloper','Web Designer','Video Editor','Java Devloper','Data Analytic'],typeSpeed: 50,});
+
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+     function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+     }
+
+     // --------------service------------
+
+     // var lernlinks = document.getElementsByClassName('lern-links');
+     // var lernmores = document.getElementsByClassName('learn-tab');
+
+     // function opentab(name){
+     //    for(lernlin of lernlinks){
+     //      lernlink.classList.remove("current-link");
+     //    }
+     //    for(lerntab of lerntabs){
+     //      lerntab.classList.remove("current-tab");
+     //    }
+     //    event.currentTarget.classList.add("current-link")
+     //    document.getElementById(name).classList.add("current-tab")
+     // }
+     </script>
+</body>
+</html>
+ 
